@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
+// Pods:
+#import <BFPaperButton/BFPaperButton.h>
 
 typedef enum {
     kFRDLivelyButtonStyleHamburger,
@@ -23,7 +24,7 @@ typedef enum {
     kFRDLivelyButtonStyleArrowRight
 } kFRDLivelyButtonStyle;
 
-@interface FRDLivelyButton : UIButton
+@interface FRDLivelyButton : BFPaperButton
 
 -(kFRDLivelyButtonStyle) buttonStyle;
 

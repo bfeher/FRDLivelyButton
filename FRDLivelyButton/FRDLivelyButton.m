@@ -76,11 +76,11 @@ NSString *const kFRDLivelyButtonStyleChangeAnimationDuration = @"kFRDLivelyButto
         layer.lineCap = kCALineCapRound;
         layer.contentsScale = self.layer.contentsScale;
         
-        // initialize with an empty path so we can animate the path w/o having to check for NULLs. 
+        // initialize with an empty path so we can animate the path w/o having to check for NULLs.
         CGPathRef dummyPath = CGPathCreateMutable();
         layer.path = dummyPath;
         CGPathRelease(dummyPath);
-
+        
         [self.layer addSublayer:layer];
     }];
     
@@ -92,7 +92,7 @@ NSString *const kFRDLivelyButtonStyleChangeAnimationDuration = @"kFRDLivelyButto
     // in case the button is not square, the offset will be use to keep our CGPath's centered in it.
     double  width   = CGRectGetWidth(self.frame) - (self.contentEdgeInsets.left + self.contentEdgeInsets.right);
     double  height  = CGRectGetHeight(self.frame) - (self.contentEdgeInsets.top + self.contentEdgeInsets.bottom);
-
+    
     self.dimension = MIN(width, height);
     self.offset = CGPointMake((CGRectGetWidth(self.frame) - self.dimension) / 2.0f,
                               (CGRectGetHeight(self.frame) - self.dimension) / 2.0f);
@@ -244,7 +244,7 @@ NSString *const kFRDLivelyButtonStyleChangeAnimationDuration = @"kFRDLivelyButto
         newLine1Alpha = 0.0f;
         newLine2Path = [self createCenteredLineWithRadius:self.dimension/2.0f/GOLDEN_RATIO angle:+M_PI_4 offset:CGPointMake(0, 0)];
         newLine3Path = [self createCenteredLineWithRadius:self.dimension/2.0f/GOLDEN_RATIO angle:-M_PI_4 offset:CGPointMake(0, 0)];
-    
+        
     } else if (style == kFRDLivelyButtonStyleCaretUp) {
         newCirclePath = [self createCenteredCircleWithRadius:self.dimension/20.0f];
         newCircleAlpha = 0.0f;
@@ -260,7 +260,7 @@ NSString *const kFRDLivelyButtonStyleChangeAnimationDuration = @"kFRDLivelyButto
         newLine1Alpha = 0.0f;
         newLine2Path = [self createCenteredLineWithRadius:self.dimension/4.0f - self.line2Layer.lineWidth/2.0f angle:-M_PI_4 offset:CGPointMake(self.dimension/6.0f,0.0f)];
         newLine3Path = [self createCenteredLineWithRadius:self.dimension/4.0f - self.line3Layer.lineWidth/2.0f angle:-3*M_PI_4 offset:CGPointMake(-self.dimension/6.0f,0.0f)];
-
+        
     } else if (style == kFRDLivelyButtonStyleCaretLeft) {
         newCirclePath = [self createCenteredCircleWithRadius:self.dimension/20.0f];
         newCircleAlpha = 0.0f;
@@ -367,7 +367,7 @@ NSString *const kFRDLivelyButtonStyleChangeAnimationDuration = @"kFRDLivelyButto
     self.line1Layer.opacity = newLine1Alpha;
     self.line2Layer.path = newLine2Path;
     self.line3Layer.path = newLine3Path;
-
+    
     CGPathRelease(newCirclePath);
     CGPathRelease(newLine1Path);
     CGPathRelease(newLine2Path);
@@ -404,7 +404,7 @@ NSString *const kFRDLivelyButtonStyleChangeAnimationDuration = @"kFRDLivelyButto
 -(void) showUnHighlight
 {
     float unHighlightScale = 1/[[self valueForOptionKey:kFRDLivelyButtonHighlightScale] floatValue];
-
+    
     [self.shapeLayers enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
         [obj setStrokeColor:[[self valueForOptionKey:kFRDLivelyButtonColor] CGColor]];
         
@@ -421,11 +421,11 @@ NSString *const kFRDLivelyButtonStyleChangeAnimationDuration = @"kFRDLivelyButto
         CGPathRef scaledDownPath = CGPathCreateMutableCopyByTransformingPath(path, &downtransform);
         
         NSArray *values = @[
-                                (__bridge id) layer.path,
-                                (id) CFBridgingRelease(scaledUpPath),
-                                (id) CFBridgingRelease(scaledDownPath),
-                                (__bridge id) finalPath
-                           ];
+                            (__bridge id) layer.path,
+                            (id) CFBridgingRelease(scaledUpPath),
+                            (id) CFBridgingRelease(scaledDownPath),
+                            (__bridge id) finalPath
+                            ];
         NSArray *times = @[ @(0.0), @(0.85), @(0.93), @(1.0) ];
         
         CAKeyframeAnimation *anim = [CAKeyframeAnimation animationWithKeyPath:@"path"];
@@ -433,7 +433,7 @@ NSString *const kFRDLivelyButtonStyleChangeAnimationDuration = @"kFRDLivelyButto
         
         anim.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionDefault];
         anim.removedOnCompletion = NO;
-
+        
         anim.values = values;
         anim.keyTimes = times;
         
