@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C8382638DA459B7AEB7B640 /* UIColor+BFPaperColors.h in Headers */ = {isa = PBXBuildFile; fileRef = 45F18D28EBC157B045F8A6C7 /* UIColor+BFPaperColors.h */; };
+		5C35264986C55990165D7738 /* BFPaperButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E46CBE8C8BD557B415D311 /* BFPaperButton.h */; };
+		745FD17C84572D63F4A60860 /* Pods-UIColor+BFPaperColors-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1EF11E8CA907F9D8FC8293 /* Pods-UIColor+BFPaperColors-dummy.m */; };
+		853F40A7165A8D142A692FBD /* UIColor+BFPaperColors.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA798707866BF21F18B6995 /* UIColor+BFPaperColors.m */; };
+		86FE16A74F4B2CA9DC11FB49 /* BFPaperButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7116316F8D039A53E5734A /* BFPaperButton.m */; };
+		8B9EF908714A6728BD13BC6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D81D0F30CD36539A3AB16178 /* Foundation.framework */; };
+		9BE675D7DD0D00CAA8357994 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D81D0F30CD36539A3AB16178 /* Foundation.framework */; };
+		B728CB432F5624BBD3344B02 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7830D93F559080866D2630C9 /* Pods-dummy.m */; };
+		E8F0D6257083CE8AED4AAC70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D81D0F30CD36539A3AB16178 /* Foundation.framework */; };
+		EE25619082AB2CE2C493CCE0 /* Pods-BFPaperButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BBA8D88421571C91B47D84 /* Pods-BFPaperButton-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60964DBA9C1F6C28DDC96C51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 232BD187BB1C91CC2194199B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CCC9541D602EB57057169BF;
+			remoteInfo = "Pods-BFPaperButton";
+		};
+		6A2CF788DA07BEF6AE3DAF3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 232BD187BB1C91CC2194199B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 558BF9D4C37BA80E7DA3B7B0;
+			remoteInfo = "Pods-UIColor+BFPaperColors";
+		};
+		B4ED6CD96ABDE6E76D3728D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 232BD187BB1C91CC2194199B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 558BF9D4C37BA80E7DA3B7B0;
+			remoteInfo = "Pods-UIColor+BFPaperColors";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06E05F1E1540D31C8B0281DA /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0726CF698AA3998F852391A1 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		20D96F115FAD12F50CA3CA66 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		21BBA8D88421571C91B47D84 /* Pods-BFPaperButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BFPaperButton-dummy.m"; sourceTree = "<group>"; };
+		345C2EE7347FD813ECE90997 /* Pods-UIColor+BFPaperColors-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIColor+BFPaperColors-Private.xcconfig"; sourceTree = "<group>"; };
+		447684F5D7C886362FEAFC90 /* Pods-UIColor+BFPaperColors-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UIColor+BFPaperColors-prefix.pch"; sourceTree = "<group>"; };
+		45E46CBE8C8BD557B415D311 /* BFPaperButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFPaperButton.h; path = Classes/BFPaperButton.h; sourceTree = "<group>"; };
+		45F18D28EBC157B045F8A6C7 /* UIColor+BFPaperColors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+BFPaperColors.h"; path = "UIColor+BFPaperColors/UIColor+BFPaperColors.h"; sourceTree = "<group>"; };
+		5FC07C92A65CD545A57202BF /* Pods-BFPaperButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BFPaperButton.xcconfig"; sourceTree = "<group>"; };
+		6F1EF11E8CA907F9D8FC8293 /* Pods-UIColor+BFPaperColors-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UIColor+BFPaperColors-dummy.m"; sourceTree = "<group>"; };
+		7830D93F559080866D2630C9 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		9DE9212441018944DB35E490 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B44D6A636945B019D917DCD7 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		B83F812A755628C6D16CB491 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		BF7116316F8D039A53E5734A /* BFPaperButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFPaperButton.m; path = Classes/BFPaperButton.m; sourceTree = "<group>"; };
+		CBA798707866BF21F18B6995 /* UIColor+BFPaperColors.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+BFPaperColors.m"; path = "UIColor+BFPaperColors/UIColor+BFPaperColors.m"; sourceTree = "<group>"; };
+		D81D0F30CD36539A3AB16178 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DF556514E60FE98A06F2F379 /* Pods-BFPaperButton-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BFPaperButton-Private.xcconfig"; sourceTree = "<group>"; };
+		E017460B36BCF442633E0625 /* libPods-BFPaperButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BFPaperButton.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDFADC8CA0686A6F5FDE2A08 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EFAC4387639B0B2766341AAA /* Pods-UIColor+BFPaperColors.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIColor+BFPaperColors.xcconfig"; sourceTree = "<group>"; };
+		F4BF450721B27699F2589260 /* libPods-UIColor+BFPaperColors.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UIColor+BFPaperColors.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD661FF7F99148596587FCE6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		FEE09110AD401263AF3494E2 /* Pods-BFPaperButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BFPaperButton-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64CD5E660D810B887042A4E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BE675D7DD0D00CAA8357994 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		973C54A207C2E9C5CA68E4A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8F0D6257083CE8AED4AAC70 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCA76F6C3BBBC036975A4E4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B9EF908714A6728BD13BC6F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FAED4019D7BC3EF60328A5E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F62EB635466AAF90F98C0DD7 /* BFPaperButton */,
+				D1A045E50501DA76796F7F5F /* UIColor+BFPaperColors */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		85363A4F45F11867F8782BC5 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D81D0F30CD36539A3AB16178 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		93C26631D78DBDFCBF5DE996 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5FC07C92A65CD545A57202BF /* Pods-BFPaperButton.xcconfig */,
+				DF556514E60FE98A06F2F379 /* Pods-BFPaperButton-Private.xcconfig */,
+				21BBA8D88421571C91B47D84 /* Pods-BFPaperButton-dummy.m */,
+				FEE09110AD401263AF3494E2 /* Pods-BFPaperButton-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-BFPaperButton";
+			sourceTree = "<group>";
+		};
+		93C4C8397C81F834BC78E2B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EDFADC8CA0686A6F5FDE2A08 /* Pods-acknowledgements.markdown */,
+				B44D6A636945B019D917DCD7 /* Pods-acknowledgements.plist */,
+				7830D93F559080866D2630C9 /* Pods-dummy.m */,
+				0726CF698AA3998F852391A1 /* Pods-environment.h */,
+				B83F812A755628C6D16CB491 /* Pods-resources.sh */,
+				20D96F115FAD12F50CA3CA66 /* Pods.debug.xcconfig */,
+				FD661FF7F99148596587FCE6 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		9705331EF03CA43DF3AD0FBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DE9212441018944DB35E490 /* libPods.a */,
+				E017460B36BCF442633E0625 /* libPods-BFPaperButton.a */,
+				F4BF450721B27699F2589260 /* libPods-UIColor+BFPaperColors.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4321E23EBEBA14EE23E4794 = {
+			isa = PBXGroup;
+			children = (
+				06E05F1E1540D31C8B0281DA /* Podfile */,
+				D8A907055C9CDC7E479BCD26 /* Frameworks */,
+				4FAED4019D7BC3EF60328A5E /* Pods */,
+				9705331EF03CA43DF3AD0FBF /* Products */,
+				FADAF2388CA7F8C9FEF687B9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D1A045E50501DA76796F7F5F /* UIColor+BFPaperColors */ = {
+			isa = PBXGroup;
+			children = (
+				45F18D28EBC157B045F8A6C7 /* UIColor+BFPaperColors.h */,
+				CBA798707866BF21F18B6995 /* UIColor+BFPaperColors.m */,
+				F99B328240C3AAF32977FFCC /* Support Files */,
+			);
+			path = "UIColor+BFPaperColors";
+			sourceTree = "<group>";
+		};
+		D8A907055C9CDC7E479BCD26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85363A4F45F11867F8782BC5 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F62EB635466AAF90F98C0DD7 /* BFPaperButton */ = {
+			isa = PBXGroup;
+			children = (
+				45E46CBE8C8BD557B415D311 /* BFPaperButton.h */,
+				BF7116316F8D039A53E5734A /* BFPaperButton.m */,
+				93C26631D78DBDFCBF5DE996 /* Support Files */,
+			);
+			path = BFPaperButton;
+			sourceTree = "<group>";
+		};
+		F99B328240C3AAF32977FFCC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFAC4387639B0B2766341AAA /* Pods-UIColor+BFPaperColors.xcconfig */,
+				345C2EE7347FD813ECE90997 /* Pods-UIColor+BFPaperColors-Private.xcconfig */,
+				6F1EF11E8CA907F9D8FC8293 /* Pods-UIColor+BFPaperColors-dummy.m */,
+				447684F5D7C886362FEAFC90 /* Pods-UIColor+BFPaperColors-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-UIColor+BFPaperColors";
+			sourceTree = "<group>";
+		};
+		FADAF2388CA7F8C9FEF687B9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				93C4C8397C81F834BC78E2B1 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8A03EC86041B28E2D499EFA5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C35264986C55990165D7738 /* BFPaperButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB56C77778CA543D17DEA0CF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C8382638DA459B7AEB7B640 /* UIColor+BFPaperColors.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		558BF9D4C37BA80E7DA3B7B0 /* Pods-UIColor+BFPaperColors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 874E6C2CEAEA5B41A42A32A5 /* Build configuration list for PBXNativeTarget "Pods-UIColor+BFPaperColors" */;
+			buildPhases = (
+				D9A36B63207A2BD09C0A9E9D /* Sources */,
+				64CD5E660D810B887042A4E5 /* Frameworks */,
+				AB56C77778CA543D17DEA0CF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-UIColor+BFPaperColors";
+			productName = "Pods-UIColor+BFPaperColors";
+			productReference = F4BF450721B27699F2589260 /* libPods-UIColor+BFPaperColors.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7CCC9541D602EB57057169BF /* Pods-BFPaperButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F097B62A72885662AE6DCB08 /* Build configuration list for PBXNativeTarget "Pods-BFPaperButton" */;
+			buildPhases = (
+				0D7B02DF2EEA9B2C44511E25 /* Sources */,
+				973C54A207C2E9C5CA68E4A7 /* Frameworks */,
+				8A03EC86041B28E2D499EFA5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CB6B3A44BD522EFD04B4C42 /* PBXTargetDependency */,
+			);
+			name = "Pods-BFPaperButton";
+			productName = "Pods-BFPaperButton";
+			productReference = E017460B36BCF442633E0625 /* libPods-BFPaperButton.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EBA4FB17035F81EFA7E9F6FE /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DBA86D98A5BCE8511C307B3 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				E39AC94B2451AD24A5E9F81F /* Sources */,
+				FCA76F6C3BBBC036975A4E4E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8F2B6D6C31B9FF74E166DAA /* PBXTargetDependency */,
+				FCA79E5F0CA9163AC51443FA /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 9DE9212441018944DB35E490 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		232BD187BB1C91CC2194199B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 5C0734AA2156E25399342392 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B4321E23EBEBA14EE23E4794;
+			productRefGroup = 9705331EF03CA43DF3AD0FBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBA4FB17035F81EFA7E9F6FE /* Pods */,
+				7CCC9541D602EB57057169BF /* Pods-BFPaperButton */,
+				558BF9D4C37BA80E7DA3B7B0 /* Pods-UIColor+BFPaperColors */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D7B02DF2EEA9B2C44511E25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86FE16A74F4B2CA9DC11FB49 /* BFPaperButton.m in Sources */,
+				EE25619082AB2CE2C493CCE0 /* Pods-BFPaperButton-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9A36B63207A2BD09C0A9E9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				745FD17C84572D63F4A60860 /* Pods-UIColor+BFPaperColors-dummy.m in Sources */,
+				853F40A7165A8D142A692FBD /* UIColor+BFPaperColors.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E39AC94B2451AD24A5E9F81F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B728CB432F5624BBD3344B02 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0CB6B3A44BD522EFD04B4C42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-UIColor+BFPaperColors";
+			target = 558BF9D4C37BA80E7DA3B7B0 /* Pods-UIColor+BFPaperColors */;
+			targetProxy = B4ED6CD96ABDE6E76D3728D2 /* PBXContainerItemProxy */;
+		};
+		F8F2B6D6C31B9FF74E166DAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-BFPaperButton";
+			target = 7CCC9541D602EB57057169BF /* Pods-BFPaperButton */;
+			targetProxy = 60964DBA9C1F6C28DDC96C51 /* PBXContainerItemProxy */;
+		};
+		FCA79E5F0CA9163AC51443FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-UIColor+BFPaperColors";
+			target = 558BF9D4C37BA80E7DA3B7B0 /* Pods-UIColor+BFPaperColors */;
+			targetProxy = 6A2CF788DA07BEF6AE3DAF3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4793F023FD55FBDC315550D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD661FF7F99148596587FCE6 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		578024B2F3A3645431D62F3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		74FCE9389B1282867D0494B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF556514E60FE98A06F2F379 /* Pods-BFPaperButton-Private.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-BFPaperButton/Pods-BFPaperButton-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		91818A6A40EF47CBECBF220E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 345C2EE7347FD813ECE90997 /* Pods-UIColor+BFPaperColors-Private.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-UIColor+BFPaperColors/Pods-UIColor+BFPaperColors-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A1ADA4A653AEE63AB20884C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20D96F115FAD12F50CA3CA66 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B0963022B8C48FFAC1C82D5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1220D503E24C7E532903EFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF556514E60FE98A06F2F379 /* Pods-BFPaperButton-Private.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-BFPaperButton/Pods-BFPaperButton-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F7AF170863001212EE93FC03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 345C2EE7347FD813ECE90997 /* Pods-UIColor+BFPaperColors-Private.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-UIColor+BFPaperColors/Pods-UIColor+BFPaperColors-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C0734AA2156E25399342392 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				578024B2F3A3645431D62F3B /* Debug */,
+				B0963022B8C48FFAC1C82D5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		874E6C2CEAEA5B41A42A32A5 /* Build configuration list for PBXNativeTarget "Pods-UIColor+BFPaperColors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7AF170863001212EE93FC03 /* Debug */,
+				91818A6A40EF47CBECBF220E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DBA86D98A5BCE8511C307B3 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1ADA4A653AEE63AB20884C9 /* Debug */,
+				4793F023FD55FBDC315550D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F097B62A72885662AE6DCB08 /* Build configuration list for PBXNativeTarget "Pods-BFPaperButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74FCE9389B1282867D0494B8 /* Debug */,
+				C1220D503E24C7E532903EFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 232BD187BB1C91CC2194199B /* Project object */;
+}

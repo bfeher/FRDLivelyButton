@@ -1,0 +1,13 @@
+PODS:
+  - BFPaperButton (2.0.17):
+    - UIColor+BFPaperColors
+  - UIColor+BFPaperColors (1.5.1)
+
+DEPENDENCIES:
+  - BFPaperButton
+
+SPEC CHECKSUMS:
+  BFPaperButton: e00250c55dff6cc29d236231f8dd6a91f0f21862
+  UIColor+BFPaperColors: 4b2baddaef5bee61159068b5cca5b765e5e58a08
+
+COCOAPODS: 0.36.3
